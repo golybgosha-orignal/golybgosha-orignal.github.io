@@ -1,0 +1,36 @@
+body{
+	background: #6be0e0;
+}
+
+.content{
+	/*border: 1px solid red;*/
+	width: 95%;
+	margin: 0 auto;
+	overflow: hidden;
+}
+
+.write-ms{
+	overflow: hidden;
+	background-color: #AFEEEE;
+	border-radius: 8px;
+	text-align: center;
+}
+
+.form-ms{
+	padding: 2%;
+}
+
+.ms{
+	margin-top: 2%;
+	background-color: #AFEEEE;
+	border-radius: 8px;
+	overflow: hidden;
+	padding: 2%;
+}
+
+.ms-osn{
+	padding: 2%;
+	background-color: #34d5d5;
+	overflow: hidden;
+	border-radius: 8px;
+}

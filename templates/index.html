@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="../static/css/style.css">
+	<title>Chat</title>
+</head>
+<body>
+	<div class="content">
+		<div class="write-ms">
+			<form method="post" class="form-ms">
+				<textarea id="text" name="text"></textarea><br>
+				<input id="btn" name="btn" type="submit" value="Написать">
+			</form>
+		</div>
+		{%for row in mass%}
+			<div class="ms">
+				<div class="ms-osn">
+					<p class="name">Пользователь</p>
+					<p class="txt">{{row[1]}}</p>
+				</div>
+			</div>
+		{%endfor%}
+	</div>
+</body>
+</html>
